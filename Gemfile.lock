@@ -242,11 +242,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  github-pages (~> 204)
   jekyll
-  jekyll-feed
+  jekyll-feed (~> 0.13.0)
   jekyll-seo-tag
-  jekyll-sitemap
+  jekyll-sitemap (~> 1.4.0)
 
 BUNDLED WITH
    2.1.2
