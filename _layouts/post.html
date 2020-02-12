@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="w3-row">
+    <div class="w3-col">
+        <h1>{{ page.title }}</h1>
+    </div>
+</div>
+
+<div class="w3-row">
+    <div class="w3-col m1 l2">
+        <p><i>{{ page.date | date_to_string }}</i></p>
+        <p><i>{{ page.author }}</i></p>
+    </div>
+    <div class="w3-col m10 l8">
+        <div class="w3-margin-left w3-margin-right">
+            {{ content }}
+        </div>
+    </div>
+    <div class="w3-col m1 l2">
+        <p></p>
+    </div>
+</div>

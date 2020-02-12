@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Lato",
+            sans-serif;
+        }
+        h1 {
+            color: #DAD;
+        }
+        h2, h3, h4, h5, h6 {
+            color: #679;
+        }
+        body, html {
+            font-family: "Roboto";
+            height: 100%;
+            color: #679;
+            line-height: 1.8;
+        }
+    </style>
+    {% feed_meta %}
+    {% seo %}
+  </head>
+
+  <body>
+    {% include navigation.html %}
+
+    <div class="w3-container w3-padding-32">
+        <div class="w3-opacity" aria-hidden="true">
+            <h1>∶∶∶</h1>
+        </div>
+        <div class="w3-animate-opacity">
+            {{ content }}
+        </div>
+    </div>
+
+    <div class="w3-hide-small">
+        {% include footer.html %}
+    </div>
+
+  </body>
+
+</html>
