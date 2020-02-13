@@ -9,12 +9,12 @@ title: blog
 
     <div class="w3-col m8 l8">
 
-        <div class="w3-opacity">
-            <h2>posts</h2>
-        </div>
+        <h1>posts</h1>
+
         <div class="w3-opacity">
             <h5>DISCLAIMER: these posts are all placeholders to test the layout until I have actual content</h5>
         </div>
+
         <ul style="list-style-type:circle;">
             {% for post in site.posts %}
             <li>
