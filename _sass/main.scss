@@ -1,8 +1,26 @@
-.current {
-    color: green;
+.mybar {
+     color: #679;
+     background-color: #FFFFFF;
+ }
+
+.mybutton-current {
+    color: #E5BEE6;
+    background-color: #FFFFFF;
+    text-decoration: none;
 }
 
-.w3-mybar {
+
+.mybutton-current:hover {
+    color: #FFFFFF;
+    background-color: #929CB5;
+}
+
+.mybutton {
     color: #679;
     background-color: #FFFFFF;
+    text-decoration: none;
+}
+.mybutton:hover {
+    color: #FFFFFF;
+    background-color: #929CB5;
 }

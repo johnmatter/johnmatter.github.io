@@ -1,9 +1,12 @@
 <nav>
     <div class="w3-top">
-        <div class="w3-bar w3-mybar w3-card" id="navbar">
+        <div class="w3-bar mybar w3-card" id="navbar">
             {% for item in site.data.navigation %}
-                <!-- <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a> -->
-                <a href="{{ item.link }}" class="w3-bar-item w3-button" aria-hidden="true">{{ item.name }}</a>
+                {% if page.url == item.link %}
+                    <a href="{{ item.link }}" class="w3-bar-item mybutton-current" aria-hidden="true">{{ item.name }}</a>
+                {% else %}
+                    <a href="{{ item.link }}" class="w3-bar-item mybutton" aria-hidden="true">{{ item.name }}</a>
+                {% endif %}
             {% endfor %}
         </div>
     </div>

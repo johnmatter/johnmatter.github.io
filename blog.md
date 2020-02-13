@@ -18,7 +18,7 @@ title: blog
                 <p style="line-height:30px;margin:0px;"><a href="{{ post.url }}">{{ post.title }}</a></p>
                 <p style="line-height:30px;margin:0px;">{{ post.date | date_to_long_string }}</p>
                 <div class="w3-opacity">
-                    {{ post.excerpt | truncatewords: 40 | markdownify }}
+                    {{ post.excerpt | strip_html | truncatewords: 40 | markdownify }}
                 </div>
             </li>
             {% endfor %}
