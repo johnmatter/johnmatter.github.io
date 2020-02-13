@@ -30,7 +30,7 @@ My dissertation experiment was a search for the onset of color transparency in q
 - Technical writing/documentation
 
 ## Hobbies
-- Music (guitar, tuba, trombone, clarinet, synthesizers)
+- Music
 - DIY electronics
 - Modular synthesis
 - Max/MSP
