@@ -20,8 +20,6 @@ My research under [Professor Nilanga Liyanage](http://www.phys.virginia.edu/Peop
 ## PhD Dissertation
 My dissertation experiment was a search for the onset of color transparency in quasielastic electron scattering from carbon-12.
 
-
-
 ## Skills
 - Programming/scripting languages: C/C++, python, R, FORTRAN, bash, lua, ruby
 - Data analysis/visualization: ROOT, ggplot, matplotlib, scipy, numpy, pandas, TensorFlow
@@ -30,3 +28,11 @@ My dissertation experiment was a search for the onset of color transparency in q
 - AutoCAD
 - Public speaking
 - Technical writing/documentation
+
+## Hobbies
+- Music (guitar, tuba, trombone, clarinet, synthesizers)
+- DIY electronics
+- Modular synthesis
+- Max/MSP
+- Supercollider
+- Bread baking
