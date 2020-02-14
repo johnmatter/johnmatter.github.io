@@ -12,7 +12,7 @@ title: blog
         <h1>posts</h1>
 
         <div class="w3-opacity">
-            <h5>DISCLAIMER: these posts are all placeholders to test the layout until I have actual content</h5>
+            <h5>DISCLAIMER: the first few of these posts are placeholders to test the layout until I have actual content</h5>
         </div>
 
         <ul style="list-style-type:circle;">
