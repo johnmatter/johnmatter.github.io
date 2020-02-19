@@ -85,28 +85,23 @@ done
 {% endhighlight %}
 
 {% highlight plain %}
-/sbs_fake_data$ cat mss/sbs_3.dat
+/data$ cat mss/sbs_3.dat
 md5=7fed7d98e455e491e4473cfe14271a47
-sourcePath=/sbs_fake_data/raw/sbs_3.dat
+sourcePath=/data/raw/sbs_3.dat
 {% endhighlight %}
 
 We only want to back up "old" data that isn't being used or written, so I modified 5 of the "raw" files to have modification times from a month ago.
 
 ## The script
 Here's the first version of the script.
-I've commented out all the commands that need to run on ifarm and replaced them with dummy text output.
 
 {% highlight bash linenos %}
 #!/usr/bin/env bash
 
 # Where do the raw data live?
-# raw_dir=/data/raw
-# mss_dir=/cache/halla/sbs/raw/gem/uva
-# cache_dir=/mss/halla/sbs/raw/gem/uva
-
-raw_dir=/sbs_fake_data/raw
-mss_dir=/sbs_fake_data/mss
-cache_dir=/sbs_fake_data/cache
+raw_dir=/data/raw
+mss_dir=/mss/halla/sbs/raw/gem/uva/eel124
+cache_dir=/cache/halla/sbs/raw/gem/uva/eel124
 
 username=sbs-onl
 
@@ -122,12 +117,10 @@ pending_files=()
 jcache_requests=$(cat request_get_multiple_pending | grep request: | cut -d : -f 2)
 
 for request_id in ${jcache_requests}; do
-    # status=$(jcache status $request_id | grep status: | cut -d -: -f 2)
-    status=$(cat request_${request_id}_pending | grep status: | cut -d : -f 2)
+    status=$(jcache status $request_id | grep status: | cut -d -: -f 2)
 
     # Add filename ('/cache/halla/sbs/etc/etc') to list of pending files
-    # filename=$(jcache status $request_id | grep /cache/ | awk -F'->' '{print $1}')
-    filename=$(cat request_${request_id}_pending | grep /cache/ | awk -F'->' '{print $1}')
+    filename=$(jcache status $request_id | grep /cache/ | awk -F'->' '{print $1}')
     pending_files+=( $filename )
 
     echo "request $request_id: status = $status, filename = $filename"
@@ -162,15 +155,18 @@ for file in ${files}; do
             if [ "$local_md5" = "$stub_md5" ]; then
                 echo "md5 sums are equal. Safe to delete local copy."
                 echo rm $file
+                rm $file
             else
                 echo "md5 sums are not equal!"
                 echo $file >> $md5_log
+                $file >> $md5_log
             fi
         else
 
         # If the stub doesn't exist, submit a jput job.
             echo "Stub doesn't exist so we should submit a job."
-            echo jput $file $cache_dir
+            echo jput $file $mss_dir
+            jput $file $mss_dir
         fi
     fi
 done
@@ -178,40 +174,40 @@ done
 
 ### Terminal output
 
-This is what the output of the script looks like in the case that sbs_1.dat and sbs_2.dat already have jobs, sbs_3.dat is already backed up, and the rest of the files are "new" and shouldn't be backed up yet.
+This is what the output of the script looks like in the case that sbs_1.dat and sbs_2.dat already have jobs, sbs_3.dat is already backed up, and the rest of the files are "new" and should backed up.
 
 {% highlight plain %}
-/sbs_fake_data$ ./backup_raw.sh
+/data$ ./backup_raw.sh
 Checking any pending jobs for sbs-onl.
-request 23772028: status =  pending, filename = /sbs_fake_data/cache/sbs_1.dat
-request 23772029: status =  pending, filename = /sbs_fake_data/cache/sbs_2.dat
+request 23772028: status =  pending, filename = /data/cache/sbs_1.dat
+request 23772029: status =  pending, filename = /data/cache/sbs_2.dat
 
 --------
-/sbs_fake_data/raw/sbs_1.dat
+/data/raw/sbs_1.dat
 Already has a pending job. We'll continue to wait.
 
 --------
-/sbs_fake_data/raw/sbs_3.dat
+/data/raw/sbs_3.dat
 No pending job exists.
 Stub exists so it should have been cached. Checking md5 hash.
 md5 sums are equal. Safe to delete local copy.
-rm /sbs_fake_data/raw/sbs_3.dat
+rm /data/raw/sbs_3.dat
 
 --------
-/sbs_fake_data/raw/sbs_2.dat
+/data/raw/sbs_2.dat
 Already has a pending job. We'll continue to wait.
 
 --------
-/sbs_fake_data/raw/sbs_5.dat
+/data/raw/sbs_5.dat
 No pending job exists.
 Stub doesn't exist so we should submit a job.
-jput /sbs_fake_data/raw/sbs_5.dat /sbs_fake_data/cache
+jput /data/raw/sbs_5.dat /mss/halla/sbs/raw/gem/uva/eel124
 
 --------
-/sbs_fake_data/raw/sbs_4.dat
+/data/raw/sbs_4.dat
 No pending job exists.
 Stub doesn't exist so we should submit a job.
-jput /sbs_fake_data/raw/sbs_4.dat /sbs_fake_data/cache
+jput /data/raw/sbs_4.dat /mss/halla/sbs/raw/gem/uva/eel124
 {% endhighlight %}
 
 ## Useful links
