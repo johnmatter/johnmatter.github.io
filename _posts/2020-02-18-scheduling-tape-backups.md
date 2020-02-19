@@ -113,8 +113,7 @@ echo Checking any pending jobs for $username.
 
 # We need to save this info for later so that we don't submit duplicate jput jobs.
 pending_files=()
-# jcache_requests=$(jcache pendingRequest -u $username | grep request: | cut -d : -f 2)
-jcache_requests=$(cat request_get_multiple_pending | grep request: | cut -d : -f 2)
+jcache_requests=$(jcache pendingRequest -u $username | grep request: | cut -d : -f 2)
 
 for request_id in ${jcache_requests}; do
     status=$(jcache status $request_id | grep status: | cut -d -: -f 2)
