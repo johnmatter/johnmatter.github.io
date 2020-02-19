@@ -3,7 +3,7 @@ title: scheduling tape backups for the SBS GEM test DAQ
 ---
 
 Since October 2019, we've been taking data with cosmic rays at JLab to test our [GEM](https://arxiv.org/abs/1409.5393) setup for the [SBS](https://hallaweb.jlab.org/12GeV/SuperBigBite/).
-We have four layers with four GEMs per layer stacked on top of each other.
+We have four layers stacked on top of each other, with four GEM modules per layer.
 Pairs of scintillator paddles sit above and below the GEM layers and provide a trigger signal for the DAQ.
 When a cosmic ray passes through one scintillator paddle on top and one on the bottom, the DAQ system digitizes the signals coming from all the GEM detectors.
 Each event contains about 500 kB of data[^1].
@@ -12,16 +12,15 @@ We observe a rate of ~15 cosmic rays per second passing through our setup.
 This means an hour's worth of data would give us a ~500 MB file containing ~1,000 events.
 We'd like to record something like 100,000 events per detector to be able to characterize how each of our 48 GEM detectors behaves.
 This means a grand total of a few TB of cosmic data.
+
 Even if it were only a few MB, these data are crucial and need to be backup up.
 Some detectors have been in storage for several years.
 Other have recently been moved from UVA to JLab and could have been damaged in transit.
 We need to verify that each one functions properly with cosmic ray tests.
 The results of these tests need to be stored for future reference once the GEM setup is moved to Hall A for production running.
-
-We need secure backups in case something catastrophic happens to the DAQ computer.
+These backups will be crucial in the event something catastrophic happens to the DAQ computer.
 Reader, something has just happened to the DAQ computer.
 
-## A problem
 For as-yet-unknown reasons, the DAQ computer has been freezing once every few days.
 Over the weekend it froze and wouldn't boot back up.
 I hadn't yet set up a backup system for our raw data.
@@ -29,7 +28,7 @@ The JLab IT group is doing what they can to restore the computer without erasing
 In the meantime, I'm planning for the future and developing our backup system.
 
 ## Backing up the data
-I'm working on a bash script that will be run once per day as a cron job.
+I'm working on a bash script that will run once per day as a cron job.
 This is what it should do:
 1. Check the status of any outstanding `jput` jobs and make note of which files they correspond to.
 2. Loop over all the local files
@@ -52,7 +51,7 @@ done
 {% endhighlight %}
 
 The JLab tape storage system provides file "stubs" that contain metadata about cached files.
-Here's a stub file for one of runs from our 2018 color transparency experiment.
+Here's a stub file for one of the runs from our 2018 color transparency experiment.
 
 {% highlight plain %}
 bitfileIndex=137024448
