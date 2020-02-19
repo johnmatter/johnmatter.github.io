@@ -1,6 +1,6 @@
 ---
 layout: default
-title: home
+title: hello 
 ---
 
 <div class="w3-display-middle w3-wide w3-opacity">
