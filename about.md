@@ -2,8 +2,7 @@
 layout: bio
 title: about
 ---
-I am a nuclear physicist seeking employment as a data scientist or software 
-engineer.
+I am a nuclear physicist seeking employment as a data scientist or software engineer.
 
 ## Bio
 I received my BS in physics and mathematics from UC Davis in 2012.
@@ -22,8 +21,8 @@ My dissertation experiment was a search for the onset of color transparency in q
 
 ## Skills
 - Programming/scripting languages: C/C++, python, R, FORTRAN, bash, lua, ruby
-- Data analysis/visualization: ROOT, ggplot, matplotlib, scipy, numpy, pandas, TensorFlow
-- Cloud computing
+- Data analysis/visualization: ROOT, ggplot, matplotlib, scipy, numpy, pandas
+- Web design: Jekyll
 - Soldering
 - AutoCAD
 - Public speaking
