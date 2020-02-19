@@ -2,7 +2,7 @@
     <div class="w3-top">
         <div class="w3-bar mybar w3-card" id="navbar">
             {% for item in site.data.navigation %}
-                {% if page.url == item.link %}
+                {% if page.url == item.link or (page.path contains '_posts' and item.name == 'blog') %}
                     <a href="{{ item.link }}" class="w3-bar-item mybutton-current" aria-hidden="true">{{ item.name }}</a>
                 {% else %}
                     <a href="{{ item.link }}" class="w3-bar-item mybutton" aria-hidden="true">{{ item.name }}</a>
