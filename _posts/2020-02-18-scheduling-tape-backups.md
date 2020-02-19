@@ -13,7 +13,7 @@ This means an hour's worth of data would give us a ~500 MB file containing ~1,00
 We'd like to record something like 100,000 events per detector to be able to characterize how each of our 48 GEM detectors behaves.
 This means a grand total of a few TB of cosmic data.
 
-Even if it were only a few MB, these data are crucial and need to be backup up.
+Even if it were only a few MB, these data are crucial and need to be backed up.
 Some detectors have been in storage for several years.
 Other have recently been moved from UVA to JLab and could have been damaged in transit.
 We need to verify that each one functions properly with cosmic ray tests.
