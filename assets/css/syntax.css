@@ -1,6 +1,6 @@
-.highlight table td { padding: 5px; }
+.highlight table td { padding: 0px; }
 .highlight table pre { margin: 0; }
-.highlight pre { overflow: scroll; }
+.highlight pre { overflow: scroll; margin: 5px; padding: 2px}
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
   color: #5e5d83;
   font-style: italic;
