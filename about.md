@@ -17,21 +17,21 @@ My research under [Professor Nilanga Liyanage](http://www.phys.virginia.edu/Peop
 - In situ imaging for gamma ray cancer therapy
 
 ## PhD Dissertation
-My dissertation experiment was a search for the onset of color transparency in quasielastic electron scattering from carbon-12.
+Color transparency is a phenomenon in which interactions between the nuclear medium and particles like protons are attenuated.
+My dissertation experiment used a beam of high energy electrons to knock protons out of carbon nuclei in order to study color transparency.
+
 
 ## Skills
-- Programming/scripting languages: C/C++, python, R, FORTRAN, bash, lua, ruby
-- Data analysis/visualization: ROOT, ggplot, matplotlib, scipy, numpy, pandas
+- Programming/scripting languages: C/C++, python, bash
+- Data analysis/visualization: R, ggplot, matplotlib, scipy, numpy, pandas, ROOT
 - Web design: Jekyll
-- Soldering
-- AutoCAD
 - Public speaking
 - Technical writing/documentation
+- Soldering
+- AutoCAD
 
 ## Hobbies
-- Music
 - DIY electronics
-- Modular synthesis
-- Max/MSP
-- Supercollider
+- Modular synthesizers
+- Computer music (Max/MSP, Supercollider)
 - Bread baking
