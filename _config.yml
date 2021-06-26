@@ -1,6 +1,9 @@
 collections:
   authors:
+    output: false
+  portfolio:
     output: true
+    permalink: /portfolio/:path/
 
 defaults:
   - scope:
@@ -17,6 +20,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+markdown: kramdown
 
 plugins:
   - jekyll-feed

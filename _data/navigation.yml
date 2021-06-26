@@ -2,5 +2,7 @@
   link: /
 - name: about
   link: /about.html
+- name: portfolio 
+  link: /portfolio.html
 - name: blog
   link: /blog.html
