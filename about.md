@@ -10,7 +10,7 @@ For my senior honors thesis, I studied the [domain wall fermion](https://arxiv.o
 After graduating, I worked for [Professor Marjorie Solomon](https://health.ucdavis.edu/team/search/861/marjorie-solomon---clinical-psychology---psychiatry-sacramento) at the [UC Davis MIND Institute](https://health.ucdavis.edu/mindinstitute/) using fMRI to study higher cognitive skills in Autism Spectrum Disorder.
 
 I began my PhD in physics at the University of Virginia in 2014.
-My research under [Professor Nilanga Liyanage](http://www.phys.virginia.edu/People/personal.asp?UID=nl8n), [Professor Krishni Wijesooriya](https://med.virginia.edu/radiation-oncology/uva-radiation-oncology-faculty/medical-physicists/krishni-wijesooriya-ph-d-dabr/) and [Professor Dipangkar Dutta](http://dd285.physics.msstate.edu) can be divided into three categories:
+My research under [Professor Nilanga Liyanage](http://www.phys.virginia.edu/People/personal.asp?UID=nl8n), [Professor Krishni Wijesooriya](https://med.virginia.edu/radiation-oncology/uva-radiation-oncology-faculty/medical-physicists/krishni-wijesooriya-ph-d-dabr/), and [Professor Dipangkar Dutta](http://dd285.physics.msstate.edu) can be divided into three categories:
 - Particle-tracking systems for accelerator-based nuclear physics experiments
 - Imaging technologies and analysis to improve gamma radiation therapy for lung and soft tissue tumors
 - Nuclear/nucleon structure and interactions
