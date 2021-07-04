@@ -19,13 +19,13 @@ The culmuniation of decades of such experiments is a theory called quantum chrom
 The Thomas Jefferson National Accelerator Facility (JLab) in Newport News, VA is home to the Continuous Electron Beam Accelerator Facility (CEBAF).
 The CEBAF beam delivers a 12 GeV beam of polarized electrons to four experimental halls.
 Most JLab experiments study the debris produced when the CEBAF electron beam hits a fixed nuclear target.
-By studying this debris, physicists are able to obtain new insights into nuclear and nucleon structure, exotic configurations of quarks, and other facets of QCD.
+By studying the debris, physicists are able to obtain new insights into nuclear and nucleon structure, exotic configurations of quarks, and other facets of QCD.
 
 ## Scattering in classical physics
 Now what exactly is "quasielastic scattering"?
 Elastic scattering is something you might be familiar with from introductory physics courses.
 In Newtonian physics, an elastic collision is one in which kinetic energy is conserved.
-A canonial example is an air hockey puck hitting another puck on a frictionless plane.
+A canonical example is an air hockey puck hitting another puck on a frictionless plane.
 An inelastic collision is one in which kinetic energy is not conserved.
 A canonical example is two wads of gum colliding and sticking together in zero gravity.
 
@@ -39,10 +39,9 @@ This is how collisions of proton beams at the LHC create short-lived particles l
 
 At "low" energies, an electron colliding with a nucleus will kick out a proton or neutron.
 Physicists can use this process to study how tightly bound individual nucleons are in a paritcular nucleus.
-This is an interesting pursuit in its own right.
 
 At higher energies, some of this E=mc^2 energy can be converted into "new" particles!
-Instead of nucleons, particles like pions, kaons, and muons come out of the collision.
+Instead of nucleons, particles like pions and kaons come out of the collision.
 At this energy scale, we start probing sub-nucleon structures instead of nuclear structures.
 Physicsts call these types of interactions "deep inelastic scattering" because we are using scattering processes to study the "deep" structure of strongly interacting matter.
 
