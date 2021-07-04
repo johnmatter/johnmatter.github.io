@@ -23,7 +23,6 @@ My dissertation experiment used a beam of high energy electrons to knock protons
 ## Skills
 - Programming/scripting languages: C/C++, python, bash
 - Data analysis/visualization: R, ggplot, matplotlib, scipy, numpy, pandas, sklearn, ROOT
-- Web design: Jekyll
 - Public speaking
 - Technical writing/documentation
 - Soldering

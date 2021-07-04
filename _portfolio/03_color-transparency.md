@@ -1,6 +1,7 @@
 ---
 layout: portfolio-item
 title: Color Transparency
+img: c12_transparency.jpg
 ---
 
 "Color transparency" refers to the vanishing of initial and final state interactions in exclusive processes at large momentum transfer.

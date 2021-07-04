@@ -7,28 +7,19 @@ title: portfolio
         <p></p>
     </div>
 
-    <div class="w3-col m6 l4">
-
-        <h1>portfolio</h1>
-        <h2>⚠︎under construction⚠︎</h2>
-
+    <div class="w3-row w3-margin-top">
         {% for item in site.portfolio %}
 
-            <div class="w3-padding-16">
-                <div class="w3-card-4">
-                    <a href="{{ item.url | prepend: site.baseurl }}">
-                        <header class="w3-container" style="color:#FFFF;background-color:#679">
-                            {{ item.title }}
-                        </header>
-                    </a>
-                    <div class="w3-container">
-                        {{ item.excerpt | strip_html | truncatewords: 20 | markdownify }}
+                <div class="w3-half">
+                    <div class="w3-display-container w3-padding-16 w3-margin-left w3-margin-right">
                         <a href="{{ item.url | prepend: site.baseurl }}">
-                            ...
+                            <img src={{ site.baseurl }}"/assets/images/portfolio/{{ item.img }}" class="w3-hover-opacity" style="width:100%">
+                            <div class="w3-display-topmiddle w3-xxlarge">
+                                <h1>{{ item.title }}</h1>
+                            </div>
                         </a>
                     </div>
                 </div>
-            </div>
 
         {% endfor %}
 
