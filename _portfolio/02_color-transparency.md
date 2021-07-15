@@ -106,7 +106,7 @@ al.](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.77.034602)
 that expand the Glauber approach to
 [include these necessary conditions](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.61.686).
 The only open question with these models is exactly *how high* an experiment
-needs to push momentum transfer in order to ``turn on'' this effect.
+needs to push momentum transfer in order to "turn on" this effect.
 **How much momentum does the electron need to pump into a proton in order to
 squish it down and make it squeak out of the nucleus without rescattering?**
 
@@ -138,7 +138,7 @@ do not show a rise in transparency.
 They're consistent with the prediction fo the typical Glauber multiple
 scattering model.
 If color transparency exists in this scattering process, it apparently doesn't
-``turn on'' until an energy scale above what we are currently able to study
+"turn on" until an energy scale above what we are currently able to study
 at JLab.
 
 <div class="w3-display-container w3-center">
