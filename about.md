@@ -18,15 +18,16 @@ My research under [Professor Nilanga Liyanage](http://www.phys.virginia.edu/Peop
 ## PhD Dissertation
 Color transparency is a phenomenon in which interactions between the nuclear medium and particles like protons are attenuated.
 My dissertation experiment used a beam of high energy electrons to knock protons out of carbon nuclei in order to study color transparency.
+You can read a description of the experiment [here]({{ site.baseurl }}/portfolio/02_color-transparency/).
 
 
 ## Skills
-- Programming/scripting languages: C/C++, python, bash
+- Programming/scripting languages: C/C++, Python, bash
 - Data analysis/visualization: MATLAB, R, ggplot, matplotlib, scipy, numpy, pandas, sklearn, ROOT
 - Public speaking
 - Technical writing/documentation
 - Soldering
-- AutoCAD
+- CAD
 
 ## Hobbies
 - DIY electronics
