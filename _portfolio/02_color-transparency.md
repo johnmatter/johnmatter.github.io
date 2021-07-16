@@ -95,7 +95,7 @@ The conditions for this to occur are:
 * Freezing - it maintains this small size for a distance comparable to the radius of the nucleus
 * Vanishing interactions - the strength of nuclear interactions decrease with increasing momentum transfer
 
-If these conditions are met, the nuclear transparency $T$ should rise with
+If these conditions are met, the nuclear transparency *T* should rise with
 momentum transfer.
 Theorists have developed models (e.g.
 [Frankfurt et al.](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.51.3435)
