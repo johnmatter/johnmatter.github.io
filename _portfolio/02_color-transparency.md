@@ -121,7 +121,7 @@ We took data in JLab's [Hall C](https://www.jlab.org/physics/hall-c), shown
 below, home to two large apparatuses that collect and analyze the debris
 generated in collisions between the electron beam and nuclear targets.
 The High Momentum Spectrometer (HMS; left) and Super High Momentum Spectrometer
-(SHMS; right) each consist of a set of magnets and detector systems that have
+(SHMS; right) each consist of a set of magnets and detector systems that were
 designed and built by collaborators around the world.
 
 <div class="w3-display-container w3-center">
