@@ -135,7 +135,7 @@ nucleus and the HMS to operate in coincidence, collecting the corresponding
 electrons that knocked the protons out.
 [The results](https://arxiv.org/abs/2011.00703) of our measurements (below)
 do not show a rise in transparency.
-They're consistent with the prediction fo the typical Glauber multiple
+They're consistent with the prediction of the traditional Glauber multiple
 scattering model.
 If color transparency exists in this scattering process, it apparently doesn't
 "turn on" until an energy scale above what we are currently able to study
