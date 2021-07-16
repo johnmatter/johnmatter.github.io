@@ -50,7 +50,7 @@ Energy and matter are in some sense interchangeable, so some of the energy conta
 This is how collisions of proton beams at the LHC create short-lived particles like the Higgs boson.
 
 At "low" energies, an electron colliding with a nucleus will kick out a proton or neutron.
-Physicists can use this process to study how tightly bound individual nucleons are in a paritcular nucleus.
+Physicists can use this process to study how tightly bound individual nucleons are in a particular nucleus.
 
 At higher energies, some of this E=mc^2 energy can be converted into "new" particles!
 Instead of nucleons, particles like pions and kaons come out of the collision.
