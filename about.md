@@ -5,7 +5,7 @@ title: about
 I am a nuclear physicist seeking employment as a data scientist or software engineer.
 
 ## Bio
-I received my BS in physics and mathematics from UC Davis in 2012.
+I received my BS in physics from UC Davis in 2012.
 For my senior honors thesis, I studied the [domain wall fermion](https://arxiv.org/abs/hep-lat/9206013) implementation of chiral fermions in [lattice gauge theory](https://arxiv.org/abs/hep-lat/0012005) under the guidance of [Professor Joe Kiskis](http://kiskis.physics.ucdavis.edu/kiskis_hp.html).
 After graduating, I worked for [Professor Marjorie Solomon](https://health.ucdavis.edu/team/search/861/marjorie-solomon---clinical-psychology---psychiatry-sacramento) at the [UC Davis MIND Institute](https://health.ucdavis.edu/mindinstitute/) using fMRI to study higher cognitive skills in Autism Spectrum Disorder.
 
