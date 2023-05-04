@@ -4,7 +4,6 @@ title: GEM detectors
 img: solid_gem.jpg
 ---
 
-!! This item is still under construction. Figures and further clarification of the text will soon be uploaded. !!
 
 Many accelerator-based particle and nuclear physics experiments make use of apparatuses called spectrometers to measure the momenta of particles coming out of collisions.
 Spectrometers function much like a prism, but instead of bending the trajectories of light based on wavelength, they use powerful superconducting electromagnets to bend the trajectories of charged particles based on their momenta.
