@@ -1,5 +1,6 @@
 ---
 title: interim solution for tape backup
+tags: jlab
 ---
 
 ## Firewall and coronavirus blues

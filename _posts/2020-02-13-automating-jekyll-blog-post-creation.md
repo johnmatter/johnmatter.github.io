@@ -1,5 +1,6 @@
 ---
 title: automating jekyll blog post creation
+tags: jekyll
 ---
 
 I don't have any real experience in web design, HTML, or CSS.

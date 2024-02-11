@@ -11,6 +11,8 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
   gem 'github-pages'
-  gem 'nokogiri', '>=1.12.5'
-  gem "kramdown", '>= 2.3.1'
+  gem 'nokogiri'
+  gem "kramdown"
 end
+
+gem "webrick", "~> 1.8"

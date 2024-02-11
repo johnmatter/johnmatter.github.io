@@ -9,7 +9,7 @@ title: blog
 
     <div class="w3-col m8 l8">
 
-        <h1>posts</h1>
+        <h1>posts by date</h1>
 
         <ul style="list-style-type:circle;">
             {% for post in site.posts %}
@@ -22,7 +22,7 @@ title: blog
             </li>
             {% endfor %}
         </ul>
-
+        
     </div>
 
     <div class="w3-col m2 l2">

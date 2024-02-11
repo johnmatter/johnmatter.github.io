@@ -1,5 +1,6 @@
 ---
 title: scheduling tape backups for the SBS GEM test DAQ
+tags: jlab bash
 ---
 
 Since October 2019, we've been taking data with cosmic rays at JLab to test our [GEM](https://arxiv.org/abs/1409.5393) setup for the [SBS](https://hallaweb.jlab.org/12GeV/SuperBigBite/).
