@@ -1,4 +1,4 @@
 <div class="w3-center">
-    <p><img src={{ site.baseurl }}"/assets/images/posts/{{ page.date | date: "%Y-%m-%d" }}/{{ include.filename }}" class="w3-round w3-image"></p>
+    <p><img src={{ site.baseurl }}"/assets/images/posts/{{ page.date | date: "%Y-%m-%d" }}/{{ include.filename }}" class="w3-round w3-image" style="width:100%;max-width:{{ include.max-width | default: 1000 }}px"></p>
 </div>
 
