@@ -2,7 +2,8 @@
 layout: bio
 title: about
 ---
-I am a nuclear physicist seeking employment as a data scientist or software engineer.
+I am a nuclear physicist working in machine learning and
+[homomorphic encryption](https://blog.openmined.org/what-is-homomorphic-encryption/).
 
 ## Bio
 I received my BS in physics from UC Davis in 2012.
@@ -21,7 +22,7 @@ and [Professor Dipangkar Dutta](http://dd285.physics.msstate.edu) can be divided
 - Imaging technologies and analysis to improve gamma radiation therapy for lung and soft tissue tumors
 - Nuclear/nucleon structure and interactions
 
-In 2022, I began working as a Research Scientist at Meta on the
+After grad school, I began working as a Research Scientist at Meta on the
 Transparent Ads Experience team. Our team works to help users, advertisers, and
 regulators better understand the ways Meta uses large data sets and machine learning
 to serve ads. My work on the team includes building and maintaining data
@@ -29,24 +30,16 @@ processing pipelines, developing user surveys, and performing experiments to
 improve our the algorithms and models we use to explain Meta's ad ranking
 systems.
 
+In 2024, I began working at Old Dominion University
+with
+[Robert Padschwadt](https://podschwadt.github.io)
+and
+[Daniel Takabi](https://www.odu.edu/article/odu-names-daniel-takabi-as-director-for-school-of-cybersecurity)
+on applications of homomorphic encryption for machine learning.
+
 ## PhD Dissertation
 Color transparency is a phenomenon in which interactions between the nuclear medium
 and particles like protons are attenuated.
 My dissertation experiment used a beam of high energy electrons to knock protons out
 of carbon nuclei in order to study color transparency.
 You can read a description of the experiment [here]({{ site.baseurl }}/portfolio/02_color-transparency/).
-
-
-## Skills
-- Programming/scripting languages: C/C++, Python, bash
-- Data analysis/visualization: MATLAB, R, ggplot, matplotlib, scipy, numpy, pandas, sklearn, ROOT
-- Public speaking to specialist and non-specialist audiences
-- Technical writing/documentation
-- Soldering
-- CAD
-
-## Hobbies
-- DIY electronics
-- Modular synthesizers
-- Computer music (Max/MSP, Supercollider)
-- Bread baking
