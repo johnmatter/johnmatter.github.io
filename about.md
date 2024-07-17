@@ -32,7 +32,7 @@ systems.
 
 In 2024, I began working at Old Dominion University
 with
-[Robert Padschwadt](https://podschwadt.github.io)
+[Robert Podschwadt](https://podschwadt.github.io)
 and
 [Daniel Takabi](https://www.odu.edu/article/odu-names-daniel-takabi-as-director-for-school-of-cybersecurity)
 on applications of homomorphic encryption for machine learning.
